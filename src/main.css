@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.screen {
+  display: flex;
+  width: 600px;
+  height: 90%;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+}
+.screen div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  overflow: hidden;
+}
+.hidden {
+  display: none;
+}
+.textFiledStyle {
+  padding: 6px;
+  text-align: center;
+  font-size: 3em;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+  caret-color: rgba(255, 255, 255, 0.5);
+}
+.textFiledStyle::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+.textFiledStyle:focus {
+  color: azure;
+  outline: none;
+}
+#quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#clock {
+  margin: 30px 0px;
+  color: azure;
+  font-weight: bolder;
+  font-size: 5em;
+}
+#greeting {
+  color: azure;
+  font-size: 3em;
+  margin: 20px 0px;
+}
+#todo-form input {
+  width: 588px;
+  padding: 6px;
+  text-align: center;
+  font-size: 2em;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom: 2px solid azure;
+  caret-color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
+}
+#todo-form input::placeholder {
+  font-size: 0.8em;
+  color: azure;
+}
+#todo-form input:focus {
+  color: azure;
+  outline: none;
+}
+#quote {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+  padding: 10px;
+  color: azure;
+}
+#weather {
+  margin: 30px;
+  color: azure;
+  font-weight: bolder;
+  font-size: 1.3em;
+  position: absolute;
+  right: 0%;
+}
+
+li {
+  color: azure;
+  margin: 5px;
+}
+button {
+  border: none;
+  background-color: rgba(240, 255, 255, 0);
+  color: azure;
+  margin: 5px;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: rgba(240, 255, 255, 0.2);
+}

@@ -1,0 +1,13 @@
+/* @keyframes widen {
+  from {
+    width: 596px;
+    height: 70px;
+  }
+  to {
+    width: 596px;
+    height: 500px;
+  }
+}
+.widenOn {
+  animation: widen 1s ease-in-out forwards;
+} */
